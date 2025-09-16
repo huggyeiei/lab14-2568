@@ -32,16 +32,16 @@ export default function Sidebar() {
         <Group>
           <Indicator
             inline
-            size={12}
-            offset={7}
+            size={15}
+            offset={4}
             position="bottom-end"
             color="red"
             withBorder
           >
-            <Avatar size="md" radius="xl" src="/charliebrown.jpg" />
+            <Avatar size="42" radius="xl" src="/My pic.jpg" />
           </Indicator>
           <Text component={RouterNavLink} to="/">
-            User : Chanadda : Admin
+            User : Naphat : Student
           </Text>
         </Group>
       </Box>

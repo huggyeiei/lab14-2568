@@ -7,7 +7,7 @@ export default function MarathonPage() {
   return (
     <Container size="lg" py="lg">
       <Stack align="center">
-        <Title order={2}>Marathon Register Page2</Title>
+        <Title order={2}>Marathon Register Page 2</Title>
         {/* Button เรียกใช้งาน Modal*/}
         <Button onClick={() => setModalOpened(true)}>Register</Button>
       </Stack>
